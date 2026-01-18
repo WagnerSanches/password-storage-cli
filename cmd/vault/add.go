@@ -6,8 +6,8 @@ import (
 
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
-	"github.com/seu-usuario/vault/internal/crypto"
-	"github.com/seu-usuario/vault/internal/storage"
+	"github.com/wagnersanches/vault/internal/crypto"
+	"github.com/wagnersanches/vault/internal/storage"
 )
 
 var addCmd = &cobra.Command{
