@@ -18,6 +18,6 @@ func DeriveKey(password string, salt []byte) []byte {
 		Iterations,
 		Memory,
 		Parallelism,
-		KeyLength
+		KeyLength,
 	)
 }
